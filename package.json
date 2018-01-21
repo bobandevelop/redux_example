@@ -1,6 +1,7 @@
 {
   "name": "redux-grider",
   "version": "0.1.0",
+  "homepage": "https://bobandevelop.github.io/redux_example",
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
@@ -16,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   }
 }
